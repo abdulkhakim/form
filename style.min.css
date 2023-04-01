@@ -1,0 +1,38 @@
+.whatsapp-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.whatsapp-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.whatsapp-form input[type="text"],
+.whatsapp-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.whatsapp-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.whatsapp-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.whatsapp-form textarea {
+  height: 100px;
+}
